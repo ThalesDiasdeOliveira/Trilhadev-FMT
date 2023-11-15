@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Poppins:wght@100;300;500;700&family=Roboto:ital,wght@0,100;0,400;0,700;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Currículo Modelo</title>
+</head>
+
+<body>
+  <!-- ATIVIDADE PRÁTICA - CURRÍCULO -->
+  <header class="header">
+    <nav class="header-menu">
+      <a href="#sobre">Sobre</a>
+      <a href="#dados_contato">Contatos</a>
+      <a href="#formacoes">Certicações</a>
+      <a href="#experiencias">Portifólio</a>
+    </nav>
+  </header>
+  <main class="container">
+    <a href="#home"><i id="link-home" class='bx bx-up-arrow-circle'></i></a>
+    <section id="home">
+      <h1>Tharles Oliveira</h1>
+      <h2>Aluno Floripa Mais Tec</h2>
+    </section>
+
+    <!--
+      - sobre
+      - Dados de contato
+      - formações
+      - experiências
+    -->
+    <section id="sobre">
+      <div>
+        <h3 class="subtitulo-secao">Sobre</h3>
+        <p>Aluno da trilha dev do Floripa Mais Tec.</p>
+      </div>
+      <img src="./assets/imagem-sobre.jpg" alt="Imagem de um programador trabalhando" class="imagem-sobre" />
+    </section>
+    <section id="dados_contato">
+      <h3 class="subtitulo-secao">Dados de contato</h3>
+      <ul class="lista-contato">
+        <li>
+          <i class='bx bx-envelope'></i>
+          tharlesdias@gmail.com
+        </li>
+        <li>
+          <i class='bx bx-phone'></i>
+          (48) 99189-4585
+        </li>
+        <li>
+          <i class='bx bxl-linkedin icone'></i>
+          <a target="_blank" href="https://www.linkedin.com/in/oliveira-thales/">Tharles Oliveira</a>
+        </li>
+      </ul>
+    </section>
+    <section id="formacoes">
+      <h3 class="subtitulo-secao">Certificações:</h3>
+      <ol>
+        <li>
+          <span class="formacoes_titulo-lista">Harvard & Alura</span>
+          <ul>
+            <a href="https://certificates.cs50.io/51570a70-9c40-4b16-bf1c-6ca11378301f.png?size=letter">
+              <li>CS50's Understanding Technology (Harvard)</li>
+            </a>
+            <a href="https://cursos.alura.com.br/certificate/fdefb5a2-d453-4164-bb23-5513599cbe13?lang=pt_BR">
+              <li>React: como os componentes funcionam</li>
+            </a>
+
+            <a href="https://cursos.alura.com.br/certificate/4f88ff76-de81-4f44-9414-b28cc95d1014?lang=pt_BR">
+              <li>JavaScript para Web: Crie páginas dinâmicas</li>
+            </a>
+            <a href="https://cursos.alura.com.br/certificate/48b44616-ac0c-4310-880f-215d8a8e5e0d?lang=pt_BR">
+              <li>UI Design: mergulhando nas interfaces digitais</li>
+            </a>
+          </ul>
+        </li>
+
+        <li>
+          <span class="formacoes_titulo-lista"> </span>
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+    <section id="experiencias">
+      <div class="experiencias-container">
+        <div class="experiencias-conteudo">
+          <h3 class="subtitulo-secao">Portifólio:</h3>
+          <div class="portifolio">
+            <div class="projeto">
+              <a href="https://tharlesoliveira.netlify.app/" target="_blank">
+                <img src="assets/portifoliogif.gif" alt="one-piece">
+              </a>
+            </div>
+          </div>
+    </section>
+    <footer id="footer">
+      Desenvolvido durante a trilha dev
+      <nav>
+        <a href="https://www.instagram.com/thalespoliglota/" target="_blank"><i
+            class='bx bxl-instagram'></i>Instagram</a>
+        <a href="https://github.com/ThalesDiasdeOliveira" target="_blank"><i class='bx bxl-github'></i>Github</a>
+        <a href="https://www.linkedin.com/in/oliveira-thales/" target="_blank"><i class="bx bxl-linkedin"></i>
+          LinkedIn</a>
+      </nav>
+    </footer>
+  </main>
+
+  <!-- FIM - ATIVIDADE PRÁTICA - CURRÍCULO -->
+  <script src="../scripts/index.js"></script>
+</body>
+
+</html>
