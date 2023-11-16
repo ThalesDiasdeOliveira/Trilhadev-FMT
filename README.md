@@ -1,6 +1,6 @@
-# Mini portifólio (Trilha Dev - FMT)
+# Currículo (Trilha Dev - FMT)
 ![portifólio](assets/trilhadev.png)
-Projeto: mini porifólio 🤍
+Projeto: Currículo online 🤍
 desenvolvido na Trilha Dev - FMT
 
 ## Tecnologias usadas no projeto
